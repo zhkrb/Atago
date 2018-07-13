@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color><!--透明色 -->
+    <color name="auto_white">#f6f6fa</color>
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="ivory">#FFFFF0</color><!--象牙色 -->
+    <color name="gray_8f">#8f8f8f</color><!--灰色8f -->
+    <color name="background">#f8f8f8</color>
+    <color name="titleBackground">#f1f1f1</color>
+    <color name="text_title">#333333</color>
+    <color name="text_nomorl">#999999</color>
+    <color name="text_nomor2">#757575</color>
+    <color name="icon_error">#00b0ff</color>
+    <color name="refresh_color1">#ff0033</color>
+    <color name="refresh_color3">#0099cc</color>
+    <color name="refresh_color2">#339933</color>
+    <color name="refresh_color4">#990066</color>
+
+
+</resources>

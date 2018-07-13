@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Atago</string>
+    <string name="index">主页</string>
+    <string name="history">历史</string>
+    <string name="resouse">内容管理</string>
+    <string name="download">下载</string>
+    <string name="setting">设置</string>
+    <string name="search">搜索</string>
+    <string name="search_empty">搜索结果为空</string>
+</resources>

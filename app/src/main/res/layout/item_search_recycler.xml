@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="6dp"
+    android:layout_marginEnd="6dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="1dp"
+    app:cardUseCompatPadding="true"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="14sp"
+            android:textColor="@color/text_title"
+            android:lineSpacingExtra="3dp"
+            android:id="@+id/title"
+            android:layout_marginEnd="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignEnd="@id/title"
+            android:layout_below="@id/title"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/text_nomorl"
+            android:textSize="12sp"
+            android:id="@+id/time"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_toEndOf="@id/group"
+            android:layout_alignTop="@id/time"
+            android:textSize="12sp"
+            android:textColor="@color/text_nomorl"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:id="@+id/size"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@id/title"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/group"
+            />
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</android.support.v7.widget.CardView>
