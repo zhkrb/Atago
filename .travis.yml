@@ -1,0 +1,16 @@
+
+language: android
+android:
+    components:
+    - platform-tools
+    - build-tools-27.0.3
+    - tools
+    - android-25
+    - android-23
+    - extra-android-m2repository
+    - extra-android-support
+before_install:
+  - chmod +x gradlew
+
+script:
+    - ./gradlew assemble
